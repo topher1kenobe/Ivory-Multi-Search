@@ -1,12 +1,12 @@
 # Ivory Search Shortcode #
-Contributors:      topher1kenobe
-Tags:              search, shortcode, ivory search
-Requires at least: 5.8
-Tested up to:      6.5
-Requires PHP:      7.4
-Stable tag:        1.0.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+* Contributors:      topher1kenobe
+* Tags:              search, shortcode, ivory search
+* Requires at least: 5.8
+* Tested up to:      6.5
+* Requires PHP:      7.4
+* Stable tag:        1.0.0
+* License:           GPL-2.0-or-later
+* License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
 Renders an Ivory Search form with radio-button form selection via a simple shortcode.
 
