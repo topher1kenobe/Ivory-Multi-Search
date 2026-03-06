@@ -1,4 +1,4 @@
-=== Ivory Search Shortcode ===
+# Ivory Search Shortcode #
 Contributors:      topher1kenobe
 Tags:              search, shortcode, ivory search
 Requires at least: 5.8
@@ -10,7 +10,7 @@ License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
 Renders an Ivory Search form with radio-button form selection via a simple shortcode.
 
-== Description ==
+## Description ##
 
 This plugin adds the `[ivory_search_form]` shortcode which outputs an Ivory Search
 compatible search form.  Instead of a single hidden `id` field the shortcode queries
@@ -28,18 +28,18 @@ set of radio buttons so the visitor can choose which search scope to use.
 
     [ivory_search_form post_type="product" id="1839,1842,1855"]
 
-== Requirements ==
+## Requirements ##
 
 * The **Ivory Search** plugin must be installed and activated.
 * The search form posts must have `publish` status.
 
-== Installation ==
+## Installation ##
 
 1. Upload the `ivory-search-shortcode` folder to `/wp-content/plugins/`.
 2. Activate the plugin through the *Plugins* screen in WordPress.
 3. Add the shortcode to any post, page, or widget.
 
-== Changelog ==
+## Changelog ##
 
 = 1.0.0 =
 * Initial release.
