@@ -41,11 +41,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 function ivory_advanced_form( $input ) {
 	// Begin output buffering so we can return the form HTML as a string.
 	ob_start();
+
+	// Check to see if we have a search variable
+	if ( ! empty( $_GET['s'] ) ) {
+		$s = $_GET['s'];
+		} else {
+		$s = '';
+	}
+
 	?>
 <form class="is-search-form is-form-style is-form-style-3" action="/" method="get" role="search">
 	<label for="is-search-input-1839">
 		<span class="is-screen-reader-text">Search for:</span>
-			<input type="search" id="is-search-input-1839" name="s" value="<?php echo esc_attr( $_GET['s'] ); ?>" class="is-search-input" placeholder="Search here..." autocomplete="off">
+			<input type="search" id="is-search-input-1839" name="s" value="<?php echo esc_attr( $s ); ?>" class="is-search-input" placeholder="Search here..." autocomplete="off">
 	</label><button type="submit" class="is-search-submit">
 	<span class="is-screen-reader-text">Search Button</span>
 	<span class="is-search-icon">
